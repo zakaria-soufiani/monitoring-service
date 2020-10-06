@@ -18,5 +18,8 @@
   "homepage": "https://github.com/zakaria-soufiani/monitoring-service#readme",
   "dependencies": {
     "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0"
   }
 }

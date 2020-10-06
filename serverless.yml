@@ -16,6 +16,9 @@ provider:
 
 
 functions:
+  customAuth:
+    handler: src/customAuth.auth
+
   listEC2SecurityGroups:
     handler: src/handler.listEC2SecurityGroups
     events:
@@ -23,3 +26,4 @@ functions:
           path: "list"
           method: GET
           cors: true
+          authorizer: customAuth
