@@ -16,5 +16,10 @@ provider:
 
 
 functions:
-  hello:
-    handler: handler.hello
+  listEC2SecurityGroups:
+    handler: handler.listEC2SecurityGroups
+    events:
+      - http:
+          path: "list"
+          method: GET
+          cors: true
