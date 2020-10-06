@@ -12,6 +12,9 @@ module.exports.listEC2SecurityGroups = async (event) => {
   });
   return {
     statusCode: 200,
+    headers: {
+      "Content-Type": "application/vnd.api+json"
+    },
     body: JSON.stringify(helper.formatResponse(securityGroupsList)),
   };
 };
