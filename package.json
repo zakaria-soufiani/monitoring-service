@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zakaria-soufiani/monitoring-service/issues"
   },
-  "homepage": "https://github.com/zakaria-soufiani/monitoring-service#readme"
+  "homepage": "https://github.com/zakaria-soufiani/monitoring-service#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }
