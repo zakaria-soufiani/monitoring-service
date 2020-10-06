@@ -15,6 +15,7 @@ npm test
 
 This will generate a code coverage folder in the project directory 
 
+![test coverage report](./test_coverage.png)
 ## Structure 
 | File  | Description |
 | ------------- | ------------- |
