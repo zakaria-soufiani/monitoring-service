@@ -4,6 +4,15 @@ service: monitoring-service
 provider:
   name: aws
   runtime: nodejs12.x
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'ap-southeast-2'}
+  profile: zak-aws-credentials
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "ec2:*"
+      Resource:
+        - "*"
 
 
 functions:
