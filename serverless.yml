@@ -17,7 +17,7 @@ provider:
 
 functions:
   listEC2SecurityGroups:
-    handler: handler.listEC2SecurityGroups
+    handler: src/handler.listEC2SecurityGroups
     events:
       - http:
           path: "list"
