@@ -4,7 +4,7 @@
   "description": "EC2 Monitoring service",
   "main": "handler.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
     "lodash": "^4.17.20"
   },
   "devDependencies": {
-    "eslint": "^7.10.0"
+    "aws-sdk-mock": "^5.1.0",
+    "eslint": "^7.10.0",
+    "jest": "^26.5.2"
   }
 }

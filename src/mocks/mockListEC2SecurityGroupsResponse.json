@@ -1,0 +1,25 @@
+{
+  "data": [
+      {
+          "type": "securityGroup",
+          "id": "sg-0e8fcaa60a095069c",
+          "attributes": {
+              "name": "launch-wizard-3"
+          }
+      },
+      {
+          "type": "securityGroup",
+          "id": "sg-06ac76b830d813b27",
+          "attributes": {
+              "name": "launch-wizard-1"
+          }
+      },
+      {
+          "type": "securityGroup",
+          "id": "sg-1865f67f",
+          "attributes": {
+              "name": "default"
+          }
+      }
+  ]
+}

@@ -1,10 +1,10 @@
 "use strict";
-const AWS = require("aws-sdk");
-const region = process.env.AWS_REGION;
-AWS.config.update({ region: region });
-const ec2 = new AWS.EC2({ apiVersion: "2016-11-15" });
-
 module.exports.getEc2List = async () => {
+  const AWS = require("aws-sdk");
+  const region = process.env.AWS_REGION;
+  AWS.config.update({ region: region });
+  const ec2 = new AWS.EC2({ apiVersion: "2016-11-15" });
+
   var params = {
     DryRun: false,
   };
