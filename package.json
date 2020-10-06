@@ -1,0 +1,19 @@
+{
+  "name": "monitoring-service",
+  "version": "1.0.0",
+  "description": "EC2 Monitoring service",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakaria-soufiani/monitoring-service.git"
+  },
+  "author": "mz.soufiani@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zakaria-soufiani/monitoring-service/issues"
+  },
+  "homepage": "https://github.com/zakaria-soufiani/monitoring-service#readme"
+}
